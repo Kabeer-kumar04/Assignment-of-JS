@@ -571,139 +571,101 @@
 
 // //
 
-// var user1 = prompt("Enter your name ");
-// var user2 = prompt("Enter your name");
-// var fullName = user1 + user2;
-// alert(`Hello ${fullName}`);
+// let user1 = prompt("Enter the first name");
+// let user2 = prompt("Enter the last name");
+// alert(`Hello ${user1} ${user2}`)
 
-// var phone = prompt("Enter your favourite mobile phone model");
-// var len = phone.length;
+// let phoneModel = prompt("Enter your favourite phone model");
+// let length = phoneModel.length;
 
-// document.write(`My favourite phone is: ${phone}${"<br>"}`);
-// document.write(`Length of String: ${len}`)
+// document.write(`My favourite phone is: ${phoneModel} ${"<br>"}`);
+// document.write(`Length of String: ${length}`);
 
-// var country = "pakistani";
-// var ind = country.indexOf("n");
-// document.write(`String: ${country} ${"<br>"}`);
-// document.write(`index of 'n' is: ${ind}`)
+// let str = "pakistani";
+// let ind = str.indexOf('n');
 
-
-// var greet = "Hello world";
-// var ind = greet.lastIndexOf("l");
-
-// document.write(`String: ${greet} ${"<br>"}`);
-// document.write(`last index of: ${ind}`);
+// document.write(`String: ${str} ${"<br>"}`);
+// document.write(`Index of n: ${ind}`);
 
 
-// var country = "pakistani";
-// var char = country.charAt(3);
+// let str = "Hello World";
+// let ind = str.lastIndexOf('l');
 
-// document.write(`String: ${country} ${"<br>"}`);
-// document.write(`character at 3 is: ${char}`)
-
-
-// var user1 = prompt("Enter your name ");
-// var user2 = prompt("Enter your name");
-// var fullName = user1.concat(user2);
-// alert(`Hello ${fullName}`);
+// document.write(`String: ${str} ${"<br>"}`);
+// document.write(`last Index of n: ${ind}`);
 
 
-// var city = "hyderabad";
-// var rep = city.replace("hyder", "islam");
+// let str = "pakistani";
+// let char = str.charAt(3);
 
-// document.write(`city: ${city} ${"<br>"}`);
-// document.write(`After replacement: ${rep}`);
+// document.write(`String: ${str} ${"<br>"}`);
+// document.write(`Character at index 3: ${char}`);
 
-// var message = "Ali and Sami are best friends. They play cricket and football together";
-// var rep = message.replace("and", "&");
+// let user1 = prompt("Enter the first name");
+// let user2 = prompt("Enter the last name");
 
-// console.log(rep);
+// let greet = user1.concat(' ', user2);
+// alert(`Hello ${greet}`);
 
-// var string = "472";
-// var num = Number(string)
+// let str = "Hyderabad";
+// let replace = str.replace('Hyder', 'Islama');
 
-// document.write(`Value: ${string} ${"<br>"}`);
-// document.write(`type String ${"<br>"}`);
-// document.write(` value: ${num} ${"<br>"}`)
-// document.write(`type Number ${"<br>"}`);
+// document.write(`City: ${str} ${"<br>"}`);
+// document.write(`After replacement: ${replace}`);
 
-// var input = prompt("Enter any word");
-// var con = input.toUpperCase();
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var replace = message.replace(/and/g, '&');
 
-// document.write(`User: ${input}${"<br>"}`);
-// document.write(`to uppercase: ${con}`)
+// console.log(replace);
 
+// let value = "472";
+// let value2 = 472;
 
-// var input = prompt("Enter any word");
-// var con = input.charAt(0).toUpperCase() + input.slice(1);
-
-
-// document.write(`User: ${input}${"<br>"}`);
-// document.write(`to uppercase: ${con}`)
+// document.write(`Value: ${value} ${"<br>"}`);
+// document.write(`Type: String ${"<br>"}`);
+// document.write(`Value: ${value2} ${"<br>"}`);
+// document.write(`Type: number`);
 
 
-// var num = 35.36;
-// var str = num.toString();
-
-// document.write(`num: ${num}${"<br>"}`);
-// document.write(`string: ${str}`);
+// let user = prompt("Enter the dryfruit");
+// let upper = user.toUpperCase();
 
 
+// document.write(`User input: ${user} ${"<br>"}`);
+// document.write(`Uppercase: ${upper}`)
 
 
-
-// var userName = prompt("Enter your Input: ");
-// var message;
-// var split = [];
-// var arr = [];
-// for (var i = 0; i < userName.length; i++) {
-//     split[i] = userName.split("&nbsp;");
-//     arr[i] = userName.charCodeAt(i);
-//     if (arr[i] != 33 || arr[i] != 44 || arr[i] != 46 || arr[i] != 64) {
-//         message = "Correct User Name";
-//     }
-//     while (arr[i] == 33 || arr[i] == 44 || arr[i] == 46 || arr[i] == 64) {
-//         alert("please enter a valid userName");
-//         userName = prompt("Enter your Input: ");
-//         for (var i = 0; i < userName.length; i++) {
-//             split[i] = userName.split("&nbsp;");
-//             arr[i] = userName.charCodeAt(i);
-//             if (arr[i] != 33 || arr[i] != 44 || arr[i] != 46 || arr[i] != 64) {
-//                 break;
-//             }
-//         }
-//     }
-
-// }
-// alert(message);
+// let user = prompt("Enter the dryfruit");
+// let title = user.slice(0, 1).toUpperCase() + user.slice(1);
 
 
+// document.write(`User input: ${user} ${"<br>"}`);
+// document.write(`Uppercase: ${title}`)
 
-// var search = prompt("Enter the cookie you want");
-// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let num = 35.36;
+// let string = num.toString();
 
-// if (search === arr[0, 1, 2, 3, 4]) {
-//     alert(`${search} It is available`);
+
+// document.write(`Number: ${num} ${"<br>"}`);
+// document.write(`Result: ${string}`)
+
+
+// let password = prompt("create a password");
+// if (password.length >= 6) {
+//     alert('keep in mind')
 // } else {
-//     alert(`sorry ${search} is not available`);
+//     prompt("Enter the valid password")
 // }
 
+// let input = prompt("enter the string");
+// let char = input.slice(-1).charAt();
 
-// var university = "University of Karachi";
-// var seperate = university.split(' ');
+// document.write(`User input: ${input}${"<br>"}`)
+// document.write(`last character of input: ${char}`)
 
-// // document.write(`${seperate}`);
+// let text = "The quick brown fox jumps over the lazy dog";
+// let text1 = text.toLowerCase();
 
-// for (let myData of seperate) {
-//     console.log(myData);
-// }
-
-
-// var country = "pakistan";
-// var charac = country.charAt(7);
-
-// document.write(`user input: ${country} ${"<br>"}`);
-// document.write(`last character: ${charac}`);
-
-
-
+// let match = text1.match(/the/g);
+// document.write(`Text: ${text}${"<br>"}`)
+// document.write(match);
