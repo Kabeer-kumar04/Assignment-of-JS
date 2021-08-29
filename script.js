@@ -650,11 +650,19 @@
 // document.write(`Result: ${string}`)
 
 
-// let password = prompt("create a password");
-// if (password.length >= 6) {
-//     alert('keep in mind')
+// let user = prompt("choose the username");
+
+// if (user.match(/@/g) || user.match(/!/g) || user.match(/./g) || user.match(/,/g)) {
+//     prompt("Enter the valid username");
 // } else {
-//     prompt("Enter the valid password")
+//     alert("username has been noted");
+// }
+
+// let password = prompt("select the password");
+// if (password.length < 6) {
+//     prompt("enter valid password");
+// } else {
+//     alert("password has been noted");
 // }
 
 // let input = prompt("enter the string");
@@ -666,6 +674,17 @@
 // let text = "The quick brown fox jumps over the lazy dog";
 // let text1 = text.toLowerCase();
 
-// let match = text1.match(/the/g);
+// let match = text1.match(/the/g).length;
 // document.write(`Text: ${text}${"<br>"}`)
-// document.write(match);
+// document.write(`there are ${match} occurence of word The`);
+
+// var uni = "university of karachi";
+// console.log(uni.split(""));
+
+
+
+// let str = "kabeer is an asshole";
+
+// console.log(str.search("an"));
+// console.log(str.match(/an/g));
+// console.log(str.includes("an"));
