@@ -649,15 +649,28 @@
 // document.write(`Number: ${num} ${"<br>"}`);
 // document.write(`Result: ${string}`)
 
+// //
+// let userName = prompt("select userName");
 
-// let user = prompt("choose the username");
-
-// if (user.match(/@/g) || user.match(/!/g) || user.match(/./g) || user.match(/,/g)) {
+// // let userName = prompt("select username");
+// if (userName.includes("@") || userName.includes("!") || userName.includes(",") || userName.includes(".")) {
 //     prompt("Enter the valid username");
 // } else {
-//     alert("username has been noted");
+//     alert("Username has been noted");
 // }
 
+
+// //
+
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var find = prompt("Enter the item").toLowerCase();
+// if (find === arr[0] || find === arr[1] || find === arr[2] || find === arr[3] || find === arr[4]) {
+//     alert(`this item is available at index ${arr.indexOf(find)} in our bakery`)
+// } else {
+//     alert(`we are sorry ${find} is not available in our bakery`)
+// }
+
+// //
 // let password = prompt("select the password");
 // if (password.length < 6) {
 //     prompt("enter valid password");
@@ -679,12 +692,73 @@
 // document.write(`there are ${match} occurence of word The`);
 
 // var uni = "university of karachi";
-// console.log(uni.split(""));
-
-
+// document.write(uni.split("\t"));
 
 // let str = "kabeer is an asshole";
 
 // console.log(str.search("an"));
 // console.log(str.match(/an/g));
 // console.log(str.includes("an"));
+
+
+// //Math methods
+
+// var num = prompt("Enter the number for experiment");
+
+// document.write(`number: ${(num)}${"<Br>"}`);
+// document.write(`Round off value: ${Math.round(num)}${"<Br>"}`);
+// document.write(`Ceil value: ${Math.ceil(num)}${"<Br>"}`);
+// document.write(`floor value: ${Math.floor(num)}`);
+
+
+// //
+
+// function math_abs(n) {
+//     return Math.abs(n);
+// }
+// document.write(`The absolute value of -4 is ${math_abs(-4)} ${"<br>"}`);
+// document.write(`The absolute value of -6 is ${math_abs(-6)} ${"<br>"}`);
+// document.write(`The absolute value of -7 is ${math_abs(-7)} ${"<br>"}`);
+// document.write(`The absolute value of 5 is ${math_abs(5)}`);
+
+// //
+
+
+// document.write(`random dice value: ${Math.ceil(Math.random() * 6)} ${"<br>"}`);
+// document.write(`random dice value: ${Math.ceil(Math.random() * 6)}`);
+
+
+// //
+
+// if (Math.ceil(Math.random() * 2) === 1) {
+//     document.write('Heads');
+// } else {
+//     document.write('Tails');
+// }
+
+// console.log(Math.ceil(Math.random() * 2));
+
+// //
+
+// document.write(`The random value between 1 and 100 is: ${Math.ceil(Math.random() * 100)}`);
+
+// //
+
+// let weight = prompt('Enter your weight');
+
+// document.write(`The weight of user is ${weight} kilograms`);
+
+// //
+
+
+// let lottery = prompt('Enter the number between 1 and 10');
+
+// let num = Math.floor(Math.random() * 2);
+
+// if (lottery === num) {
+//     alert('congratulations');
+// } else {
+//     alert('Try again');
+// }
+
+// console.log(num);
