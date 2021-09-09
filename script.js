@@ -762,3 +762,104 @@
 // }
 
 // console.log(num);
+
+// //Date methods
+
+let now = new Date();
+// let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+// let getMonth = now.getMonth();
+// let currentMonth = months[getMonth];
+
+// document.write(`Current Month: ${currentMonth}`);
+
+// let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+// let getDay = now.getDay();
+// let today = days[getDay];
+
+
+// alert(`Today is ${today.slice(0, 3)}`);
+
+// if (today === 'Sunday' || today === 'Saturday') {
+//     alert('Its a fun day');
+// } else {
+//     alert('Its a working day');
+// }
+
+// // let days = now.getDate();
+
+// if (days <= 15) {
+//     alert('First fifteen days of the month');
+// } else {
+//     alert('Last days of the month');
+// }
+// console.log(days);
+
+// let time = now.getHours();
+
+// if (time >= 13 || time <= 23) {
+//     alert('Its PM');
+// } else {
+//     alert('Its AM');
+// }
+
+// console.log(time);
+
+// // let laterDate = new Date(2021, 11, 31);
+// document.write(`Later Date: ${laterDate}`);
+
+
+// console.log(now);
+// let hourAgo = new Date(2021, 8, 9, 21, 15, 20);
+// console.log(hourAgo);
+
+// let hourAgo = new Date(1921, 8, 9, 22, 17, 52);
+// console.log(hourAgo);
+
+
+
+// //let age = prompt('Enter your age');
+
+// let year = now.getFullYear();
+// let birthyear = year - age;
+
+// document.write(`Your age is: ${age}${'<br>'}`);
+// document.write(`Your birth year is: ${birthyear}`);
+
+// let cust = 'ABC';
+
+
+// let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// let getMonth = now.getMonth();
+// let currentMonth = months[getMonth];
+
+// let numUnits = 410;
+// let charges = 16;
+
+// document.write(`Customer Name: ${cust} ${"<br>"}`);
+// document.write(`Month: ${currentMonth} ${"<br>"}`);
+// document.write(`Number of units: ${numUnits} ${"<br>"}`);
+// document.write(`Charges per unit: ${charges} ${"<br>"}`);
+
+// let latePayment = 350;
+
+// let netAmountPayable = numUnits * charges;
+// let grossAmountPayable = netAmountPayable + latePayment;
+
+
+// document.write(`Net amount Payable(with in due date): ${netAmountPayable}${'<br>'}`);
+// document.write(`Late payment surcharge: ${latePayment}${'<br>'}`);
+// document.write(`gross Amount payable(after due date): ${grossAmountPayable}`);
+
+
+
+
+
+
+
+
+
+
+
+
